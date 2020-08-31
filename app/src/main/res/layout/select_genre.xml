@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".SelectGenre">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="   좋아하는 장르를 \n   선택해주세요."
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="40dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="150dp"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/select_action"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/poster_action"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_animation"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_animation"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_adventure"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_adventure"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_crime"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_crime"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/action"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:text="액션"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    app:layout_constrainedHeight="false" />
+
+                <TextView
+                    android:id="@+id/animation"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="애니메이션"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/adventure"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="어드벤쳐"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/crime"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="범죄"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/select_musical"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/poster_musical"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_drama"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_drama"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_family"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_family"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_war"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/poster_war"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/musical"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:text="뮤지컬"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/drama"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="드라마"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/family"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="가족"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/war"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:text="전쟁"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/select_fantasy"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/poster_fantasy"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_comedy"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_comedy"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_documentary"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_documentary"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_horror"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_horror"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fantasy"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:text="판타지"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/comedy"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="코미디"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/documentary"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="다큐멘터리"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/horror"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="공포"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/select_mystery"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/poster_mystery"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_romance"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_romance"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_sf"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_sf"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_thrilier"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_thrilier"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mystery"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:text="미스테리"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/romance"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="로맨스"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/sf"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="SF"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/thrilier"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="스릴러"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/select_western"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/poster_western"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_space1"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="#00FFFFFF"
+                    android:clickable="false"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/select_space2"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="#00FFFFFF"
+                    android:clickable="false"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/western"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="서부"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/space"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/space2"
+                    android:layout_width="80dp"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/selectgenre_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:text="완료 →"
+            android:textAlignment="gravity"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
