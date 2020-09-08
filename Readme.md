@@ -17,9 +17,9 @@
 
 # Screenshots
 <div>
-![KakaoTalk_20200908_102401177](https://user-images.githubusercontent.com/69743476/92450589-960e7480-f1f6-11ea-9d98-2dd76525c45a.jpg)
-![KakaoTalk_20200908_102401642](https://user-images.githubusercontent.com/69743476/92450633-a58dbd80-f1f6-11ea-944d-8cf06e2f6a19.jpg)
-![KakaoTalk_20200908_102402537](https://user-images.githubusercontent.com/69743476/92450655-a9b9db00-f1f6-11ea-805c-25562d4e8d75.jpg)
+<img src="https://user-images.githubusercontent.com/69743476/92450589-960e7480-f1f6-11ea-9d98-2dd76525c45a.jpg"></img src>
+<img src="https://user-images.githubusercontent.com/69743476/92450633-a58dbd80-f1f6-11ea-944d-8cf06e2f6a19.jpg></img src>
+<img src="https://user-images.githubusercontent.com/69743476/92450655-a9b9db00-f1f6-11ea-805c-25562d4e8d75.jpg></img src>
 </div>
 ![KakaoTalk_20200908_102402895](https://user-images.githubusercontent.com/69743476/92450658-aaeb0800-f1f6-11ea-9528-92f6ec5d06e0.jpg)
 ![KakaoTalk_20200908_102403199](https://user-images.githubusercontent.com/69743476/92450660-ab839e80-f1f6-11ea-97f5-15cd6ad7aa09.jpg)
