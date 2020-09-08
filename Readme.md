@@ -15,5 +15,13 @@
 
 ## 영화 검색 기능
 
-# 구동 화면
-
+# Screenshots
+![KakaoTalk_20200908_102401177](https://user-images.githubusercontent.com/69743476/92450589-960e7480-f1f6-11ea-9d98-2dd76525c45a.jpg)
+![KakaoTalk_20200908_102401642](https://user-images.githubusercontent.com/69743476/92450633-a58dbd80-f1f6-11ea-944d-8cf06e2f6a19.jpg)
+![KakaoTalk_20200908_102402537](https://user-images.githubusercontent.com/69743476/92450655-a9b9db00-f1f6-11ea-805c-25562d4e8d75.jpg)
+![KakaoTalk_20200908_102402895](https://user-images.githubusercontent.com/69743476/92450658-aaeb0800-f1f6-11ea-9528-92f6ec5d06e0.jpg)
+![KakaoTalk_20200908_102403199](https://user-images.githubusercontent.com/69743476/92450660-ab839e80-f1f6-11ea-97f5-15cd6ad7aa09.jpg)
+![KakaoTalk_20200908_102403874](https://user-images.githubusercontent.com/69743476/92450719-bb02e780-f1f6-11ea-856f-8cdb7ad761ef.jpg)
+![KakaoTalk_20200908_102403500](https://user-images.githubusercontent.com/69743476/92450663-ab839e80-f1f6-11ea-8a65-29806f7104bb.jpg)
+![KakaoTalk_20200908_102401947](https://user-images.githubusercontent.com/69743476/92450741-c1915f00-f1f6-11ea-9bb5-d1a006533c65.jpg)
+![KakaoTalk_20200908_102402239](https://user-images.githubusercontent.com/69743476/92450647-a7f01780-f1f6-11ea-8890-fedced95018e.jpg)
