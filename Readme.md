@@ -7,21 +7,15 @@ This is a my first Android project that I processed while studying with my colle
 
 # 주요기능
 
-### 구글 로그인 연동
-[code](https://github.com/minsang96/myCinema/blob/master/app/src/main/java/com/example/swproject/MainActivity.java)
+### - 구글 로그인 연동
 
-### Firebase를 활용한 Database 구축
-[code](https://github.com/minsang96/myCinema/blob/master/app/src/main/java/com/example/swproject/SelectGenre.java)
+### - Firebase를 활용한 Database 구축
 
-### Google Map을 활용한 주변 영화관 위치 안내
-[code](https://github.com/minsang96/myCinema/blob/master/app/src/main/java/com/example/swproject/MapsActivity.java)
+### - Google Map을 활용한 주변 영화관 위치 안내
 
-### 영화의 상세정보 출력
-[code](https://github.com/minsang96/myCinema/blob/master/app/src/main/java/com/example/swproject/DetailView.java)
+### - 영화의 상세정보 출력
 
-### 영화 검색 기능
-[code1](https://github.com/minsang96/myCinema/blob/master/app/src/main/java/com/example/swproject/Search_Result.java)
-[code2](https://github.com/minsang96/myCinema/blob/master/app/src/main/java/com/example/swproject/SearchAdapter.java)
+### - 영화 검색 기능
 
 # Screenshots
 <div>
